@@ -1,57 +1,28 @@
-# SUSI
-## 1	Introduction
-SUSI – A Bridge to Simplify & Enhance H/W & Application Implementation Efficiency
-When developers want to write an application that involves hardware access, they have to study the specifications to write the drivers. This is a time-consuming job and requires lots of expertise. 
-Advantech has done all the hard work for our customers with the release of a suite of Software APIs (Application Programming Interfaces), called Secured & Unified Smart Interface (SUSI). 
-SUSI provides not only the underlying drivers required but also a rich set of user-friendly, intelligent and integrated interfaces, which speeds development, enhances security and offers add-on value for Advantech platforms. SUSI plays the role of catalyst between developer and solution, and makes Advantech embedded platforms easier and simpler to adopt and operate with customer applications.
+# SUSI APIs (Secure, Unified, and Smart Interface)
+## Introduction
+As a software developer or system integrator, writing applications requiring direct hardware access can be challenging, especially with modern operating systems. Studying extensive specifications to write appropriate drivers is a complex and time-consuming task.
 
-### 1.1	Functions
-#### 1.1.1	GPIO
- 
-General Purpose Input/Output is a flexible parallel interface that allows a variety of custom connections. It supports various Digital I/O devices – input devices like buttons, switches; output devices such as cash drawers, LED lights…etc. And, allows users to monitor the level of signal input or set the output status to switch on/off the device. Our APIs also provided Programmable GPIO and allows developers to dynamically set the GPIO input or output status.
+To simplify this process, Advantech has developed SUSI (Secure and Unified Smart Interface), a suite of Software APIs (Application Programming Interfaces) that bridges the gap between hardware and application implementation efficiency. SUSI provides not only the necessary underlying drivers but also user-friendly, intelligent, and integrated interfaces that accelerate development, enhance security, and offer added value for Advantech platforms.
 
-#### 1.1.2	SMBus
- 
-SMBus is the System Management Bus defined by Intel® Corporation in 1995. It is used in personal computers and servers for low-speed system management communications. Today, SMBus is used in all types of embedded systems. The SMBus APIs allows a developer to interface a platform to a downstream embedded system environment and transfer serial messages using the SMBus protocols, allowing multiple simultaneous device control.
+This allows customers to more easily program and configure features while maintaining full control over their applications. By acting as a catalyst between developers and solutions, SUSI makes Advantech embedded platforms simpler and easier to adopt, improving the overall operation of customer applications.
 
-#### 1.1.3	I2C
- 
-I2C is a bi-directional two wire bus that was developed by Philips for use in their televisions in the 1980s. Today, I2C is used in all types of embedded systems. The I2C API allows a developer to interface a platform to a downstream embedded system environment and transfer serial messages using the I2C protocols, allowing multiple simultaneous device control.
+## Architecture
 
-#### 1.1.4	Watchdog
- 
-A watchdog timer (WDT) is a device or electronic card that performs a specific operation after a certain period of time if something goes wrong with an electronic system and the system does not recover on its own.
-A watchdog timer can be programmed to perform a warm boot (restarting the system) after a certain number of seconds during which a program or computer fails to respond following the most recent mouse click or keyboard action.
+![image](Image/SUSI.png)
 
-#### 1.1.5	Hardware Monitor
-   
-The Hardware Monitor (HWM) APIs is a system health supervision API that inspects certain condition indexes, such as smart fan, fan speed, temperature, current, case open and voltage.
+## Drivers and APIs
 
-#### 1.1.6	Backlight Control
-   
-The Backlight Control APIs allows a developer to interface platform to easily control brightness through PWM and backlight on/off.
+### SUSI 4.0
+SUSI 4.0 driver supports include not only newer SUSI 4.0 APIs, but also the APIs of SUSI 3.02 and iManager 2.0. Therefore, the old customers, who bought SUSI 3.02 or iManager 2.0 before, can install SUSI 4.0 driver with no effort. Customers will enjoy better performance which is SUSI 4.0 driver carries out.
 
-#### 1.1.7	Storage
- 
-Storage is a non-volatile storage, the storage APIs allows a developer to access storage information, read/write data to storage and lock/unlock data area (same like write protection) by a key.
+### SUSI AI
+SUSI AI is used to get and set information of AI accelerated devices, such as NVIDIA x86 GPU card, NVIDIA ARM platform, and Intel x86 CPU / GPU; meanwhile, information of docker image and container could be retrieved as well.
 
-#### 1.1.8	Thermal Protection
-   
-Thermal Protection can select a thermal source to monitor. When source temperature reach the limit, SUSI can act protect function to protect system.
+### SUSI Device
+SUSI Device is auxiliary library that depends on SUSI library, making customers access some SMBus devices, such as G-Sensor, RAM, Battery and so on, more efficiently.
 
-### 1.2	Benefits
-#### Faster Time to Market
-SUSI's unified API helps developers write applications to control the hardware without knowing the hardware specs of the chipsets and driver architecture.
+### SUSI CANBus
+SUSI CANBus API provides customers to manipulate Advantech Embedded Controller functions, including send, receive and set configuration etc.
 
-#### Reduced Project Effort
-When customers have their own devices connected to the onboard bus, they can either: study the data sheet and write the driver & API from scratch, or they can use SUSI to start the integration with a 50% head start. Developers can reference the sample program on the CD to see and learn more about the software development environment.
-
-#### Enhances Hardware Platform Reliability
-SUSI provides a trusted custom ready solution which combines chipset and library function support, controlling application development through SUSI enhances reliability and brings peace of mind. 
-
-#### Flexible Upgrade Possibilities
-SUSI supports an easy upgrade solution for customers. Customers just need to install the new version SUSI that supports the new functions.
-
-#### Backward compatibility
-Support SUSI 3.0, iManager 2.0 and EAPI 1.0 interface. Customers don’t need to change any APIs in their applications.
-
+### SUSI IoT
+SUSI IoT is an IoT-oriented library aiming at simplifying the complicated IoT integration developing works. SUSI IoT provides an simple unified interface sets to our users to access various of hardware or software modules.

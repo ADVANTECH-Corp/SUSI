@@ -10,6 +10,12 @@ This allows customers to more easily program and configure features while mainta
 
 ![image](Image/SUSI.png)
 
+## Service Highlights
+
+| System Protection | Device Monitoring | I/O Control | Application Extension |
+| ----------------- | ----------------- | ----------- | ----------- |
+| *Data security <br>*Watch Dog Timer <br>*Thermal protection<br> *System throttling              | *Smart fan <br>*Hardware monitoring <br>*System information <br>*AI information             | *GPIO <br>*SMBus/I2C <br>*Backlight on/off <br>*Brightness <br>*CANBus | *PoE <br>*G-sensor <br>*RAM <br> *Battery <br>*Virtual COM |
+
 ## Drivers and APIs
 
 ### SUSI 4.0

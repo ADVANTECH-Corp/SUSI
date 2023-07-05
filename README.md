@@ -21,9 +21,6 @@ This allows customers to more easily program and configure features while mainta
 ### SUSI 4.0
 SUSI 4.0 driver supports include not only newer SUSI 4.0 APIs, but also the APIs of SUSI 3.02 and iManager 2.0. Therefore, the old customers, who bought SUSI 3.02 or iManager 2.0 before, can install SUSI 4.0 driver with no effort. Customers will enjoy better performance which is SUSI 4.0 driver carries out.
 
-### SUSI AI
-SUSI AI is used to get and set information of AI accelerated devices, such as NVIDIA x86 GPU card, NVIDIA ARM platform, and Intel x86 CPU / GPU; meanwhile, information of docker image and container could be retrieved as well.
-
 ### SUSI Device
 SUSI Device is auxiliary library that depends on SUSI library, making customers access some SMBus devices, such as G-Sensor, RAM, Battery and so on, more efficiently.
 

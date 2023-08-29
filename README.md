@@ -29,3 +29,6 @@ SUSI CANBus API provides customers to manipulate Advantech Embedded Controller f
 
 ### SUSI IoT
 SUSI IoT is an IoT-oriented library aiming at simplifying the complicated IoT integration developing works. SUSI IoT provides an simple unified interface sets to our users to access various of hardware or software modules.
+
+### SUSI AI
+SUSI AI is used to get and set information of AI accelerated devices, such as NVIDIA x86 GPU card, NVIDIA ARM platform, and Intel x86 CPU / GPU; meanwhile, information of docker image and container could be retrieved as well.

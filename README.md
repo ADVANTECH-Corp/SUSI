@@ -28,7 +28,7 @@ The existing SUSI APIs and libraries remain under the SUSI 4.0 version naming. T
 - Existing SUSI DLL / LIB files retain their SUSI 4.0 version naming.
 - The **SUSI 4.0 User Manual** remains the reference documentation for existing SUSI APIs.
 - A dedicated **SUSI AI User Manual** is available. A separate **SUSI 5.0 User Manual** is not provided.
-- 
+  
 ### SUSI 4.0
 SUSI 4.0 driver supports include not only newer SUSI 4.0 APIs, but also the APIs of SUSI 3.02 and iManager 2.0. Therefore, the old customers, who bought SUSI 3.02 or iManager 2.0 before, can install SUSI 4.0 driver with no effort. Customers will enjoy better performance which is SUSI 4.0 driver carries out.
 
